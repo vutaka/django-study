@@ -9,3 +9,13 @@
 
 # 開発サーバのスタート
 * python manage.py runserver
+
+# アプリの作成
+* アプリ作成、python manage.py startapp polls
+* urls.pyの作成とメインのアプリのurls.pyに追加
+* メインアプリのINSTALLED_APPSに作成したアプリを追加
+
+# モデルの変更
+* モデルを変更する (models.py の中の)
+* これらの変更のためのマイグレーションを作成するために python manage.py makemigrations を実行します。
+* データベースにこれらの変更を適用するために python manage.py migrate を実行します。
