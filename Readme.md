@@ -19,3 +19,8 @@
 * モデルを変更する (models.py の中の)
 * これらの変更のためのマイグレーションを作成するために python manage.py makemigrations を実行します。
 * データベースにこれらの変更を適用するために python manage.py migrate を実行します。
+* 各モデルに独自メソッドを追加できる
+
+# django Admin
+* python manage.py createsuperuser(スーパーユーザの作成)(admin:password)
+
